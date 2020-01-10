@@ -1,10 +1,10 @@
 package Algorithm.test;
 
-import Algorithm.questions.string.LongestPalindrome;
+import Algorithm.questions.leetcode.tencent.RegularMatch;
 
 class Solution {
     public static void main(String[] args) {
-        LongestPalindrome palindrome = new LongestPalindrome();
-        System.out.printf(palindrome.longestPalindrome("babad"));
+        boolean ret = new RegularMatch().isMatch("","c*c*");
+        System.out.println(ret);
     }
 }
